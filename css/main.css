@@ -9,6 +9,8 @@
 .parallax {
   position: relative;
   height: 100%;
+  transition: all 1s ease-in-out;
+  transition: inherit;
 }
 
 .parallax__mountain {
@@ -17,6 +19,7 @@
   height: 100%;
   top: 0;
   left: 0;
+  transition: inherit;
 }
 
 .parallax__mountain_1 {
@@ -24,6 +27,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
+  transition: inherit;
 }
 
 .parallax__mountain_2 {
@@ -32,6 +36,7 @@
   background-repeat: no-repeat;
   background-size: 45%;
   z-index: 1;
+  transition: inherit;
 }
 
 .parallax__mountain_3 {
@@ -40,6 +45,7 @@
   background-repeat: no-repeat;
   background-size: 100%;
   z-index: 1;
+  transition: inherit;
 }
 
 .parallax__fog {
@@ -53,6 +59,7 @@
   top: 0;
   left: 0;
   z-index: 2;
+  transition: inherit;
 }
 
 .content {
